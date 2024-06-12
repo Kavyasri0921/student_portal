@@ -1,0 +1,63 @@
+*{
+	padding:0px;
+	margin:0px;
+	text-decoration:none;
+	list-style:none;
+	box-sizing:border-box;
+}
+.im
+{
+	opacity:0.75;
+}
+.rgukt
+{
+	width:70px;
+	height:75px;
+}
+nav
+{
+	background:#035bff;
+	height:80px;
+	width:100%;
+}
+label.logo
+{
+	color:white;
+	font-size:35px;
+	line-height:70px;
+	padding:50px 10px;
+	font-weight:bold;
+}
+nav ul
+{
+	float:right;
+	margin-right:40px;
+	
+}
+nav ul li
+{
+	display:inline-block;
+	line-height:80px;
+	margin:0 20px;
+}
+nav ul li a
+{
+	color:white;
+}
+button
+{
+	width:70px;
+	height:40px;
+	cursor:pointer;
+}
+h1
+{
+	text-align:center;
+	text-decoration:underline;
+	
+	color:/*#3b8313#f82888*/brown;
+}
+
+
+
+

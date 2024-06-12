@@ -1,0 +1,54 @@
+/* Reset some default styles for the page */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-attachment:fixed;
+   /* background-color:linear-gradient(#485563,#29323c)*/background:linear-gradient(#C9A99A,#DABAAA,#DABAAA);
+   /* background-image:url("https://res.cloudinary.com/dfhnfpvb5/image/upload/v1695279605/PROJECT_zdsadw.jpg");
+    align-i:left;*/
+ 	
+    
+}
+.image{
+	background-image:url("https://res.cloudinary.com/dywn7mwiv/image/upload/v1696492624/project4-removebg-preview_weyrle.png");
+	margin-top:100px;
+	margin-left:0px;
+	background-size:100% 50%;
+	background-repeat:no-repeat;
+	height:1100px;
+	width:800px;
+	}
+
+/* Create a container to center the box vertically */
+.container {
+    display: flex;
+    align-items:right;
+    height: 100vh; /* 100% viewport height */
+}
+
+/* Style the bordered box */
+.bordered-box {
+    width: 350px; 
+    height:500px;/* Adjust the width as needed */
+    padding: 20px;
+    border: 2px solid #333; /* Border style and color */
+    text-align: center;
+    border-radius:30px;
+    background:linear-gradient(#4ecdc4,#556270);
+    margin-top:50px;
+    margin-left:50px;
+    background-attachment:fixed;
+    
+}
+input
+{       margin:5px;
+	width:300px;
+	height:40px;
+	border-radius:30px;
+	background:linear-gradient(#de6161,#2657eb);
+}
+input:hover{
+    background:linear-gradient(#eecda3,#ef629f);
+}
+

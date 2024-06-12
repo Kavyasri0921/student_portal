@@ -1,0 +1,46 @@
+
+.container {
+    display: flex;
+    justify-content: right;
+    align-items:right;
+    margin:5vw;
+    height: 100vh;
+     /* 100% viewport height */
+}
+
+/* Style the bordered box */
+.bordered-box {
+    width: 600px; 
+    height:500px;
+    text-align: center;
+    padding:10px;
+    border-radius:30px;
+    border-width:0px;
+    background:linear-gradient(rgb(248, 154, 201),rgb(235, 210, 178));
+    background-attachment:fixed;
+}
+input
+{
+	width:95%;
+	height:45px;
+    margin:5px;
+    border-width:0px;
+	border-radius:50px;
+    color:black;
+	/*background-color: white;*/
+    font-family:spiderpete;
+    font-size:25px;
+    color:rgb(94, 93, 93);
+    font-weight:bolder;
+    background-attachment:fixed;
+}
+input:hover{
+    background:linear-gradient(rgb(252, 213, 142),white);
+}
+.img{
+    background-image:url("https://res.cloudinary.com/dakddegrx/image/upload/v1695277657/student_djqxvj.jpg");
+    height:90vh;
+    width:95vw;
+    background-size:cover;
+    /*background-attachment:fixed;*/
+}

@@ -1,0 +1,57 @@
+/* Reset some default styles for the page */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /*align-i:left;*/
+    /*background-image:url("/home/rguktongole/Downloads/logout.png");*/
+    background-color:white;
+    
+}
+.image{
+	/*background-image:url("https://res.cloudinary.com/dfhnfpvb5/image/upload/v1695749810/pyq_jvglza.jpg");*/
+	/*margin-top:50px;*/
+	 background-image:url("https://res.cloudinary.com/dywn7mwiv/image/upload/v1696469652/pyq-removebg-preview_bfezwc.png");
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	height:400px;
+	width:600px;
+	margin-left:50px;
+	margin-top:80px;
+	
+	}
+
+/* Create a container to center the box vertically */
+.container {
+    display: flex;
+    align-items:right;
+    height: 100vh; /* 100% viewport height */
+}
+
+/* Style the bordered box */
+.bordered-box {
+    width: 400px; 
+    height:500px;/* Adjust the width as needed */
+    padding: 20px;
+    border: 2px solid #333; /* Border style and color */
+    text-align: center;
+    border-radius:30px;
+   /* background-color:#c45aec;
+   background:linear-gradient(#ff6e7f,#bfe9ff);
+   background:linear-gradient(#cc95c0,#dbd4b4,#7aa1d2);
+   background:linear-gradient(#1a2980,#26d0ce);*/
+   background:linear-gradient(#ffecd2,#fcb69f);
+    margin-left:100px;
+    margin-top:60px;
+}
+input
+{       margin:10px;
+	width:400px;
+	height:50px;
+	border-radius:30px;
+	background:linear-gradient(#b7f8db,#50a7c2);
+}
+input:hover{
+    background:linear-gradient(#13547a,#80d0c7);
+}
+
